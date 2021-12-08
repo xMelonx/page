@@ -24,7 +24,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     z-index: 1;
     background-color: #022873;
     color: #fff;
@@ -32,14 +32,16 @@ a {
 
 .logo {
     flex: 1;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     /* background-color: khaki; */
     margin-left: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
 }
 
 .top span {
     flex: 1;
-    font-size: 3rem;
+    font-size: 3.6rem;
     /* background-color: lawngreen; */
     margin-right: 1.5rem;
     display: flex;
@@ -48,6 +50,19 @@ a {
 
 nav {
     display: none;
+    position: absolute;
+    left: 0;
+    top: 6rem;
+    background-color: #0228735b;
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    border-bottom: 1px solid #fff;
 }
 
 header {
